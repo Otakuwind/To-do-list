@@ -4,17 +4,36 @@ body{
 }
 
 .container{
-    max-width: 500px;
+    max-width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     border: 1px solid linear-gradient(to right, #4d92db, #133a66);
     padding: 30px;
-    background-color: #4d92db;
+    background-color: #f0f0f0;
      box-shadow: 
     8px -8px 12px 0 rgba(0, 0, 0, 0.3),
     -12px 12px 16px rgba(255, 255, 255, 0.25);
-    
+}
 
+.input-field{
+    text-align: center;
+}
+
+input[type="text"]{
+    color: #fff;
+    border: none;
+    background-color: #485563;
+    max-width: 400px;
+}
+
+.list-group-item {
+background-color: #fff;
+color: black;
+font-weight: bold;
+}
+.fa-solid{
+    cursor: pointer;
+    color: rgba(235, 18, 18, 0.925);
 }
